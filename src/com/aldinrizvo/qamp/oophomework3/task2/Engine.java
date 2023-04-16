@@ -20,8 +20,8 @@ public class Engine {
         return this.capacity;
     }
 
-    public double decreaseCapacity(final double subtractedCapacity) {
-        this.capacity -= subtractedCapacity;
+    public double decreaseCapacity(final double speed) {
+        this.capacity -= 0.2 * speed;
         return this.capacity;
     }
 

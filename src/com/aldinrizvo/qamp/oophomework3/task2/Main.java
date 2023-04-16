@@ -20,11 +20,11 @@ public class Main {
         System.out.println(volkswagen);
         System.out.println(rimac);
 
-        System.out.println("\nAll cars decelerate by 10 units: ");
+        System.out.println("\nAll cars decelerate (by 10, 10, 50 units): ");
 
         tractor.decelerate(10);
         volkswagen.decelerate(10);
-        rimac.decelerate(10);
+        rimac.decelerate(50);
 
         System.out.println(tractor);
         System.out.println(volkswagen);
