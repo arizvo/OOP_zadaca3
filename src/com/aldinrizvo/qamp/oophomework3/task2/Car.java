@@ -12,7 +12,7 @@ public class Car extends Vehicle {
     public double accelerate(final double speed) {
         double resultingSpeed = this.getSpeed();
 
-        if (engine.canAccelerate(speed)) {
+        if (this.engine.canAccelerate(speed)) {
             resultingSpeed = super.accelerate(speed);
             this.engine.decreaseCapacity(speed);
         }
