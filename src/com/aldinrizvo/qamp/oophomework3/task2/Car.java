@@ -22,6 +22,6 @@ public class Car extends Vehicle {
 
     @Override
     public String toString() {
-        return "vehicle: " + getModel() + ", speed: " + getSpeed() + ", capacity: " + engine.getCapacity();
+        return super.toString() + ", " + engine.toString();
     }
 }
